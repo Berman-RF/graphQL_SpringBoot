@@ -1,0 +1,15 @@
+/home/sleg/eclipse-workspace/graphQLMoviesDB/src/main/java/com/graphql/models/MoviePageResults.java
+/home/sleg/eclipse-workspace/graphQLMoviesDB/src/main/java/com/graphql/resolvers/MovieResolver.java
+/home/sleg/eclipse-workspace/graphQLMoviesDB/src/main/java/com/graphql/models/Language.java
+/home/sleg/eclipse-workspace/graphQLMoviesDB/src/main/java/com/graphql/models/Genre.java
+/home/sleg/eclipse-workspace/graphQLMoviesDB/src/main/java/com/graphql/models/MovieDetail.java
+/home/sleg/eclipse-workspace/graphQLMoviesDB/src/main/java/com/graphql/GraphQlMoviesDbApplication.java
+/home/sleg/eclipse-workspace/graphQLMoviesDB/src/main/java/com/graphql/models/Country.java
+/home/sleg/eclipse-workspace/graphQLMoviesDB/src/main/java/com/graphql/MoviesController.java
+/home/sleg/eclipse-workspace/graphQLMoviesDB/src/main/java/com/graphql/Constant.java
+/home/sleg/eclipse-workspace/graphQLMoviesDB/src/main/java/com/graphql/models/BaseMovie.java
+/home/sleg/eclipse-workspace/graphQLMoviesDB/src/main/java/com/graphql/service/MovieService.java
+/home/sleg/eclipse-workspace/graphQLMoviesDB/src/main/java/com/graphql/models/Company.java
+/home/sleg/eclipse-workspace/graphQLMoviesDB/src/main/java/com/graphql/resolvers/QueryResolver.java
+/home/sleg/eclipse-workspace/graphQLMoviesDB/src/main/java/com/graphql/FeignConfig.java
+/home/sleg/eclipse-workspace/graphQLMoviesDB/src/main/java/com/graphql/models/GenreRes.java

@@ -1,0 +1,63 @@
+schema {
+    query: Query
+}
+
+type Query {
+    movieDetail(id: Int!): MovieDetail
+    popularMovies(page: Int! = 1): MoviePageResults
+    searchMovie(query: String, page: Int! = 1): MoviePageResults
+    
+}
+
+type BaseMovie {
+    id: Int!
+    title: String!
+    releaseDate: String
+    overview: String
+    genres: [Genre]
+}
+
+type MovieDetail {
+    id: Int!
+    title: String!
+    releaseDate: String
+    overview: String
+    genres: [Genre]
+    homepage: String
+    runtime: Int
+    spokenLanguages: [Language]
+    productionCountries: [Country]
+    productionCompanies: [Company]
+    popularity: Float
+    voteAverage: Float
+    voteCount: Int
+}
+
+type MoviePageResults {
+    page: Int!
+    totalPages: Int!
+    totalResults: Int!
+    results: [BaseMovie]
+}
+
+type Company {
+    id: Int!
+    name: String!    
+    originCountry: String
+}
+
+type Genre {
+    id: Int!
+    name: String!
+}
+
+type Language {
+    code: String!
+    englishName: String!
+    name: String
+}
+
+type Country {
+    code: String!
+    name: String!
+}
